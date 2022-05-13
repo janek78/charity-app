@@ -1,4 +1,15 @@
 @import './settings/reset';
 @import './settings/fonts';
 @import './settings/colors';
+@import './home';
+@import './homeHeader';
+@import './homeThreeColumns';
+@import './simpleSteps';
+@import './aboutUs';
+@import './organizations';
+@import './contactForm';
 
+body{
+  font-family: $font-base;
+  color:$text3;
+}
