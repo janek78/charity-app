@@ -3,11 +3,19 @@
 @import './settings/colors';
 @import './home';
 @import './homeHeader';
-@import './homeThreeColumns';
+@import './threeColumns';
 @import './simpleSteps';
 @import './aboutUs';
 @import './organizations';
+@import './contact';
 @import './contactForm';
+@import './nav';
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
 
 body{
   font-family: $font-base;

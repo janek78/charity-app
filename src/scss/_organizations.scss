@@ -1,0 +1,46 @@
+.organizations{
+ margin: 0 10%;
+}
+.organizations__content{
+margin: 2em 0;
+display: flex;
+flex-direction: column;
+align-items: center;
+  .organizations__title{
+    font-size: 2em;
+    font-weight: 400;
+  }
+  .decoration{
+    background-image: url('../assets/Decoration.svg');
+    width: 253px;
+    height: 33px;
+    margin: 1.5em 0;
+  }
+  .organizations__types {
+    display: flex;
+    justify-content: space-between;
+    gap: 1em;
+    margin: 2em 0;
+
+    .organizations__type {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      padding: 1.3em 2em;
+      font-size: 1.2em;
+      cursor: pointer;
+      width:10em;
+      text-align: center;
+    }
+  }
+  .organizations__description{
+    text-align: center;
+    font-size:1em;
+    width: 50%;
+  }
+}
+.organizations__list{
+  width: 70%;
+  height:15em;
+  margin: 1em auto;
+}

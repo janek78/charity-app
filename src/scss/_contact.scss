@@ -1,0 +1,50 @@
+.contact {
+  height: 100vh;
+  position: relative;
+  background-image: url('../assets/Background-Contact-Form.jpg');
+  background-repeat: no-repeat;
+  background-size:cover;
+  &::after {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(255, 255, 255, 0.5);
+    z-index: 1;
+  }
+
+  .contact__container{
+    position: relative;
+    margin: 0 10vw;
+    height: 100%;
+    z-index: 2;
+  }
+  .contact__container__form{
+    display: flex;
+    justify-content: right;
+    align-items: center;
+    height: 92%;
+  }
+  .contact__footer{
+    display: flex;
+    align-items: center;
+  }
+  .contact__footer__copyright{
+    width: 50%;
+    display: flex;
+    justify-content: flex-end;
+    padding-bottom: 1em;
+  }
+  .contact__footer__icons {
+    width: 50%;
+    display: flex;
+    justify-content: flex-end;
+    gap: 1em;
+    padding-bottom: 1em;
+    img {
+      cursor: pointer;
+    }
+  }
+}

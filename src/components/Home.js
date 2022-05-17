@@ -1,20 +1,21 @@
+import React from 'react';
 import { HomeHeader } from './HomeHeader';
-import { HomeThreeColumns } from './HomeThreeColumns';
+import { ThreeColumns } from './ThreeColumns';
 import { SimpleSteps } from './SimpleSteps';
 import { AboutUs } from './AboutUs';
 import { Organizations } from './Organizations';
-import { ContactForm } from './ContactForm';
+import { Contact } from './Contact';
 
 
 export const Home=()=>{
     return(
         <>
             <HomeHeader />
-            <HomeThreeColumns />
+            <ThreeColumns />
             <SimpleSteps />
             <AboutUs />
             <Organizations />
-            <ContactForm />
+            <Contact />
         </>
     )
 }

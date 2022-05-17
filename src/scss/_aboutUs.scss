@@ -1,0 +1,53 @@
+.about__us{
+  height: 100vh;
+  display: flex;
+  color: $text3;
+  flex-direction: row;
+  .about__us__content{
+    height: 100%;
+    width:50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: $background;
+
+    .about__us__title{
+      font-size: 1.6em;
+    }
+    .decoration{
+      background-image: url('../assets/Decoration.svg');
+      width: 253px;
+      height: 33px;
+      margin: 1.5em 0;
+    }
+    .about__us__description{
+      margin: 1em 0;
+      width: 60%;
+      font-size:1.2em;
+      text-align: center;
+      line-height: 1.4em;
+    }
+    .about__us__signature{
+      width: 60%;
+      display: flex;
+      justify-content: flex-end;
+      .about__us__signature__img{
+        margin-left: 5em;
+        background-image: url('../assets/Signature.svg');
+        background-repeat: no-repeat;
+        background-size: cover;
+        height: 8em;
+        width:12em;
+      }
+    }
+  }
+  .people{
+    background-image: url('../assets/People.jpg');
+    height: 100%;
+    width:50%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+}

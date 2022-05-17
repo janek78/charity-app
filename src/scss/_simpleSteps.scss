@@ -1,0 +1,82 @@
+.simple__steps{
+  display:flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top:4em;
+  .simple__steps__title{
+    font-size: 1.6em;
+    font-weight: 500;
+    text-align: center;
+    }
+  .decoration {
+    background-image: url('../assets/Decoration.svg');
+    width: 253px;
+    height: 33px;
+    margin: 1.5em 0;
+    }
+  .btn{
+   padding: 13px 51px;
+   background-color: #00000000;
+   border: 0.75px solid $text3;
+   color: $text3;
+   text-align: center;
+   font-size: 1.2em;
+   font-family: $font-base;
+   margin: 2em;
+   width:11em;
+    }
+}
+
+.simple__steps__items {
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  width: 100%;
+  background-color:$background;
+  padding: 2em 10vw;
+
+
+  .simple__steps__item {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    .simple__steps__item__title {
+      border-bottom: 1px solid #707070;
+      margin: 0.7em 0;
+      font-size: 1.1em;
+      text-align: center;
+      padding-bottom: 0.8em;
+    }
+
+    .simple__steps__item__description {
+      font-size: 0.9em;
+      width: 9.2em;
+      font-weight: 400;
+      text-align: center;
+    }
+
+    .simple__steps__item__icon {
+      width: 53px;
+      height: 53px;
+      background-size: cover;
+    }
+
+    .icon1 {
+      background-image: url('../assets/Icon-1.svg');
+
+    }
+
+    .icon2 {
+      background-image: url('../assets/Icon-2.svg');
+    }
+
+    .icon3 {
+      background-image: url('../assets/Icon-3.svg');
+    }
+
+    .icon4 {
+      background-image: url('../assets/Icon-4.svg');
+    }
+  }
+}

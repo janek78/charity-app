@@ -1,0 +1,39 @@
+.navigation {
+margin-top:1.5em;
+  .nav__links {
+    ul {
+      font-family: $font-base;
+      display: flex;
+      justify-content: flex-end;
+
+      li {
+        font-size: 0.9em;
+        padding: 0.6em;
+        border: 1px solid #FFFFFF;
+        &:hover {
+          border: 1px solid $backgroundBorder;
+          padding: 0.6em;
+        }
+      }
+    }
+  }
+
+  .nav__user {
+    display: flex;
+    justify-content: flex-end;
+
+    .user__account, .user__create__account {
+      background-color: #00000000;
+      border: 1px solid #FFFFFF;
+      color: $text2;
+      font-family: $font-base;
+      font-size: 0.8em;
+      padding: 0.5em 0.6em;
+
+      &:hover {
+        border: 1px solid $backgroundBorder;
+        padding: 0.5em 0.6em;
+      }
+    }
+  }
+}
