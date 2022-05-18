@@ -1,5 +1,6 @@
 import React from 'react';
 import { Nav } from './Nav';
+import { Link } from "react-router-dom";
 
 export const HomeHeader=()=>{
     return(
@@ -12,8 +13,8 @@ export const HomeHeader=()=>{
                 <h2>Oddaj niechciane rzeczy w zaufane ręce</h2>
                 <div className='decoration'/>
                 <div className='buttons'>
-                    <button className='btn give__things'>ODDAJ RZECZY</button>
-                    <button className='btn organize__collection'>ZORGANIZUJ ZBIÓRKĘ</button>
+                    <Link to="/login"><button className='btn give__things'>ODDAJ RZECZY</button></Link>
+                    <Link to="/login"><button className='btn organize__collection'>ZORGANIZUJ ZBIÓRKĘ</button></Link>
                 </div>
             </div>
             </div>

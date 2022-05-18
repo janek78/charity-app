@@ -1,4 +1,6 @@
 import React from 'react';
+import { Link } from "react-router-dom";
+
 export const SimpleSteps=()=>{
     return(
         <div className='simple__steps'>
@@ -26,7 +28,7 @@ export const SimpleSteps=()=>{
                     <p className="simple__steps__item__description">kurier przyjedzie w dogodnym terminie</p>
                 </div>
             </div>
-            <button className="btn">ODDAJ RZECZY</button>
+            <Link to="/login"><button className="btn">ODDAJ RZECZY</button></Link>
         </div>
     )
 }
