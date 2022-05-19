@@ -128,14 +128,17 @@ export const collections = [
 export const btnList = [
     {
         id: 'foundations',
-        name: 'Fundacjom'
+        name: 'Fundacjom',
+        description:'W naszej bazie znajdziesz listę zweryfikowanych fundacji, z którymi współpracujemy. Możesz sprawdzić czym się zajmują, komu pomagają i czego potrzebują.'
     },
     {
         id: 'organizations',
-        name: 'Organizacjom pozarządowym'
+        name: 'Organizacjom pozarządowym',
+        description:'W naszej bazie znajdziesz listę zweryfikowanych organizacji, z którymi współpracujemy. Możesz sprawdzić czym się zajmują, komu pomagają i czego potrzebują.'
     },
     {
         id: 'collections',
-        name: 'Lokalnym zbiórkom'
+        name: 'Lokalnym zbiórkom',
+        description:'W naszej bazie znajdziesz listę zweryfikowanych zbiórek lokalnych, z którymi współpracujemy. Możesz sprawdzić czym się zajmują, komu pomagają i czego potrzebują.'
     },
 ];

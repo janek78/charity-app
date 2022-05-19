@@ -35,8 +35,6 @@ const [postsPerPage] = useState(3)
     for (let i = 1; i <= Math.ceil(data.length / postsPerPage); i++) {
         pageNumbers.push(i)
     }
-
-    if (pageNumbers.length >= 1) {
         return (
             <section className="organizations" >
                 <div className='organizations__content'>
@@ -56,10 +54,12 @@ const [postsPerPage] = useState(3)
                             })}
                         </div>
                     </div>
-                    <p className="organizations__description">
-                        W naszej bazie znajdziesz listę zweryfikowanych
-                        fundacji, z którymi współpracujemy. Możesz sprawdzić czym się
-                        zajmują, komu pomagają i czego potrzebują.</p>
+
+                    {btnList.map(el => {
+                        return(
+                    <p key={el.id} className="organizations__description">{(selected===el.id?el.description:'')}</p>
+                        )
+                    })}
                 </div>
                     {currentPosts.map(el => {
                         return (
@@ -75,7 +75,8 @@ const [postsPerPage] = useState(3)
                             </div>
                         )
                     })}
-                    <div className="pagination">
+
+                {pageNumbers.length>1&&<div className="pagination">
                         {pageNumbers.map(pageNumber => (
                             <button
                                 key={pageNumber}
@@ -84,8 +85,8 @@ const [postsPerPage] = useState(3)
                             >{pageNumber}
                             </button>
                         ))}
-                    </div>
+                    </div>}
             </section>
         );
-    }
+
 };
