@@ -3,6 +3,10 @@
   align-items: center;
   flex-direction: column;
   padding-bottom: 1.5em;
+
+  .submit__success{
+    color:green;
+  }
   .form__header__title {
     font-size: 2em;
     font-weight: 400;
@@ -39,7 +43,7 @@
   p {
     margin-top: 0.4em;
     font-size: 0.7em;
-    color: $text1;
+    color: red;
   }
 }
   .form__content__description{
@@ -61,13 +65,14 @@
       overflow: hidden;
       text-align: justify;
     }
-
     p {
       margin-top: 0.5em;
       font-size: 0.8em;
-      color: $text1;
+      color: red;
     }
   }
+
+
   .form__btn {
     display: flex;
     margin-top: 1em;
