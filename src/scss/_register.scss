@@ -6,7 +6,7 @@
     display: flex;
     align-items: center;
     flex-direction: column;
-    padding-top: 7.5em;
+    padding-top: 2em;
 
     .register__header {
       font-size: 2.5em;
@@ -16,7 +16,7 @@
       background-image: url('../assets/Decoration.svg');
       width: 253px;
       height: 33px;
-      margin:2em 0;
+      margin:0.5em 0;
     }
     .register__form {
       width: 40%;
@@ -28,7 +28,7 @@
   display: flex;
   flex-direction: column;
   background-color: $background;
-  margin: 1.9em;
+  margin: 1.5em;
   padding: 3.8em;
 
   label {
@@ -51,6 +51,7 @@
     border: 0.75px solid #00000000;
     padding: 0.6em 1.1em;
     cursor: pointer;
+    margin-bottom: 1.2em;
     &:hover {
       border: 0.75px solid $text3;
       padding: 0.6em 1.1em;
