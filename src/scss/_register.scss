@@ -8,6 +8,9 @@
     flex-direction: column;
     padding-top: 2em;
 
+    .submit__success{
+      color:green;
+    }
     .register__header {
       font-size: 2.5em;
       font-weight: 300;
@@ -32,14 +35,28 @@
   padding: 3.8em;
 
   label {
-    margin-bottom: 0.9em;
+    margin: 0 1em 0.9em 1em;
+    display: flex;
+    flex-direction: column;
   }
-  input {
-    margin-bottom: 1.2em;
+  .border__color__normal {
+    margin-bottom: 0.5em;
     background-color: #00000000;
     border: none;
     border-bottom: 1px solid $text3;
     outline: none;
+  }
+  .border__color__red{
+    margin-bottom: 0.5em;
+    background-color: #00000000;
+    border: none;
+    border-bottom: 1px solid red;
+    outline: none;
+  }
+  p {
+    margin-bottom: 0.5em;
+    font-size: 0.7em;
+    color: red;
   }
 }
 .register__form__btns {
