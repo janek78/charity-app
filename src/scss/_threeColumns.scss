@@ -1,4 +1,4 @@
-.three__columns {
+.three-columns {
   display: flex;
   flex-direction: row;
   justify-content: space-around;
@@ -6,27 +6,26 @@
   background-color: $backgroundBorder;
   text-align: center;
 
-  .three__columns__item {
+  &__item {
     display: flex;
     flex-direction: column;
     align-items: center;
     color: $text3;
-    width: 200px;
+    width: 480px;
   }
 
-  .three__column__number {
+  &__number {
     font-size: 3em;
   }
 
-  .three__column__name {
+  &__name {
     font-size: 1.1em;
     margin-top: 1em;
   }
 
-  .three__column__description {
+  &__description {
     font-size: 0.9em;
     margin: 1em 5em 0 5em;
     text-align: center;
-    max-width: 280px;
   }
 }
